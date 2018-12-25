@@ -232,6 +232,17 @@ header {
   text-transform: uppercase;
   color: green;
 }
+.table{
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  border-collapse: collapse;
+}
+.table td{
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+}
 
 /*Styles for footer*/
 footer {
