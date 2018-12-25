@@ -27,6 +27,7 @@ body {
 }
 
 .div_opacity {
+  height: 1500px;
   background-color: rgba(204, 199, 176, 0.5);
   padding-left: 0px;
 }
