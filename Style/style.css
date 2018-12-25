@@ -20,6 +20,7 @@
 
 /* Начало общих стилей для всех страниц */
 body {
+  padding-top: 70px;
   margin: auto;
   padding-left: 0;
   background-image: url(../images/fon2.png);
