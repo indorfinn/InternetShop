@@ -242,6 +242,10 @@ header {
   border: 2px solid black;
   text-align: center;
   vertical-align: middle;
+
+}
+.table tr:first-child{
+  height: 200px;
 }
 
 /*Styles for footer*/
