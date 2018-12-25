@@ -1,0 +1,244 @@
+@font-face {
+  font-family: Shtempel;
+  src: url("../fonts/Shtempel.otf");
+}
+
+@font-face {
+  font-family: WWWest;
+  src: url("../fonts/WWWest.ttf");
+}
+
+@font-face {
+  font-family: verdana;
+  src: url("../fonts/verdana.ttf");
+}
+
+@font-face {
+  font-family: Callygraph;
+  src: url("../fonts/Callygraph.otf");
+}
+
+/* Начало общих стилей для всех страниц */
+body {
+  margin: auto;
+  padding-left: 0;
+  background-image: url(../images/fon2.png);
+}
+
+.div_opacity {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+}
+
+/* Styles for header*/
+header {
+  height: 70px;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  background: #A5A4AB;
+  border-bottom: 2px solid gray;
+  position: fixed;
+  top: 0px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  width: 1000px;
+  display: flex;
+  text-decoration: none;
+}
+
+.menu li img {
+  width: 70px;
+  height: 70px;
+}
+
+.menu li {
+  letter-spacing: 2px;
+  text-align: center;
+  list-style: none;
+}
+
+.menu li a {
+  font-family: "Shtempel", sans-serif;
+  font-size: 2em;
+  color: green;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 220px;
+  height: 70px;
+  line-height: 70px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.menu li:nth-child(3) a {
+  border: none;
+}
+
+.menu li a:hover {
+  background-color: rgb(80, 200, 80);
+  color: blue;
+}
+
+.menu li a:active {
+  background-color: rgb(90, 200, 90);
+  color: red;
+}
+
+/*styles for h1*/
+.title span {
+  font-family: "Shtempel", sans-serif;
+  color: green;
+  font-size: 50px;
+}
+
+/*styles for main */
+.body_main div p {
+  font-size: 30px;
+  font-family: verdana, sans-serif;
+}
+
+.body_main div p:first-letter {
+  font-size: 50px;
+  color: Blue;
+}
+
+/*styles for Catalog*/
+.catalog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.catalog div {
+  margin: auto;
+  width: 200px;
+  height: 600px;
+}
+
+.catalog div p {
+  margin: auto;
+  text-align: center;
+  outline: inherit;
+  outline-color: black;
+  outline-width: 5px;
+}
+
+.catalog div p a {
+  text-decoration: none;
+  color: rgb(0, 138, 156);
+  text-shadow: 3px 5px 5px black;
+  font-weight: 650;
+  font-size: 40px;
+  font-family: verdana, sans-serif;
+}
+
+.catalog div p img {
+  outline: 5px solid #008A9C;
+}
+
+.catalog div p img:hover {
+  outline: NONE;
+}
+
+/*Styles for Contacts*/
+.form {
+  width: 400px;
+  height: auto;
+}
+
+.form input[type="text"], textarea, input[type="email"] {
+  color: blue;
+  text-transform: capitalize;
+}
+
+.form input[type="text"]:hover, textarea:hover, input[type="email"]:hover {
+  background-color: #ccc;
+}
+
+.form input[type="text"], input[type="email"] {
+  width: 50%;
+  height: 20px;
+}
+
+.form textarea {
+  width: 350px;
+  height: 250px;
+}
+
+.form input[type="text"]:focus, textarea:focus, input[type="email"]:focus {
+  background-color: #71E371;
+  color: red;
+}
+
+.form span {
+  font-size: 20px;
+  width: 50%;
+  display: inline-block;
+}
+
+.adress {
+  text-align: center;
+  width: 350px;
+  border: 1px solid gray;
+  background-color: rgba(150, 150, 150, 0.5);
+}
+
+.adress ul {
+  list-style: none;
+}
+
+/*Styles for Product_page*/
+.body_product_page p:first-letter {
+  font-size: 50px;
+  font-family: Callygraph, sans-serif;
+  font-weight: 500;
+  color: red;
+  text-transform: capitalize;
+}
+
+.body_product_page {
+  width: 300px;
+  text-align: center;
+  background: rgba(150, 150, 150, 0.6);
+}
+
+.body_product_page h3 {
+  width: 300px;
+  background-color: #ccc;
+  text-align: center;
+  color: green;
+}
+
+.body_product_page a img {
+  outline: 5px solid #008A9C;
+}
+
+.body_product_page a img:hover {
+  outline: none;
+}
+
+.list {
+  list-style-image: url(../images/mini.png);
+  text-align: left;
+}
+
+.body_product_page h1 {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  color: green;
+}
+
+/*Styles for footer*/
+footer {
+  border-top: 2px solid gray;
+}
+
+footer span {
+  font-size: 20px;
+  color
+}
