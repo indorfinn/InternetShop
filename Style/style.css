@@ -22,12 +22,13 @@
 body {
   margin: auto;
   padding-left: 0;
+  margin-top: 70px;
   background-image: url(../images/fon2.png);
 }
 
 .div_opacity {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-left: 10px;
+  background-color: rgba(204, 199, 176, 0.5);
+  padding-left: 0px;
 }
 
 /* Styles for header*/
@@ -36,10 +37,11 @@ header {
   width: 100%;
   padding: 0;
   margin: auto;
-  background: #A5A4AB;
-  border-bottom: 2px solid gray;
+  background: #ccc7b0;
+  border-bottom: 2px solid #B5B8B1;
   position: fixed;
   top: 0px;
+  left: 0px;
 }
 
 .menu {
@@ -64,15 +66,15 @@ header {
 .menu li a {
   font-family: "Shtempel", sans-serif;
   font-size: 2em;
-  color: green;
+  color: #a24252;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   width: 220px;
   height: 70px;
   line-height: 70px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #6b2148;
+  border-right: 1px solid #6b2148;
 }
 
 .menu li:nth-child(3) a {
@@ -80,19 +82,19 @@ header {
 }
 
 .menu li a:hover {
-  background-color: rgb(80, 200, 80);
-  color: blue;
+  background-color: #89a8a3;
+  color: #C92C80;
 }
 
 .menu li a:active {
-  background-color: rgb(90, 200, 90);
+  background-color: #391d4d;
   color: red;
 }
 
 /*styles for h1*/
 .title span {
   font-family: "Shtempel", sans-serif;
-  color: green;
+  color: #a24252;
   font-size: 50px;
 }
 
@@ -104,7 +106,7 @@ header {
 
 .body_main div p:first-letter {
   font-size: 50px;
-  color: Blue;
+  color: #a24252;
 }
 
 /*styles for Catalog*/
@@ -130,7 +132,7 @@ header {
 
 .catalog div p a {
   text-decoration: none;
-  color: rgb(0, 138, 156);
+  color: #a24252;
   text-shadow: 3px 5px 5px black;
   font-weight: 650;
   font-size: 40px;
@@ -138,7 +140,7 @@ header {
 }
 
 .catalog div p img {
-  outline: 5px solid #008A9C;
+  outline: 5px solid #391d4d;
 }
 
 .catalog div p img:hover {
@@ -152,12 +154,12 @@ header {
 }
 
 .form input[type="text"], textarea, input[type="email"] {
-  color: blue;
+  color: #6b2148;
   text-transform: capitalize;
 }
 
 .form input[type="text"]:hover, textarea:hover, input[type="email"]:hover {
-  background-color: #ccc;
+  background-color: #ccc7b0;
 }
 
 .form input[type="text"], input[type="email"] {
@@ -171,7 +173,7 @@ header {
 }
 
 .form input[type="text"]:focus, textarea:focus, input[type="email"]:focus {
-  background-color: #71E371;
+  background-color: #a24252;
   color: red;
 }
 
@@ -197,7 +199,7 @@ header {
   font-size: 50px;
   font-family: Callygraph, sans-serif;
   font-weight: 500;
-  color: red;
+  color: #a24252;
   text-transform: capitalize;
 }
 
@@ -211,11 +213,11 @@ header {
   width: 300px;
   background-color: #ccc;
   text-align: center;
-  color: green;
+  color: #a24252;
 }
 
 .body_product_page a img {
-  outline: 5px solid #008A9C;
+  outline: 5px solid #391d4d;
 }
 
 .body_product_page a img:hover {
@@ -230,7 +232,7 @@ header {
 .body_product_page h1 {
   font-family: verdana, sans-serif;
   text-transform: uppercase;
-  color: green;
+  color: #a24252;
 }
 .table{
   border: 1px solid black;
