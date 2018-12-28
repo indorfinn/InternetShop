@@ -264,3 +264,21 @@ footer span {
   font-size: 20px;
   color
 }
+/*Submenu*/
+.sub{
+  padding-left: 0;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  left: 268px;
+  top: 75px;
+}
+
+.submenu a{
+  background-color: #ccc7b0;
+}
+
+.sub:hover .submenu{
+  display: block;
+}
