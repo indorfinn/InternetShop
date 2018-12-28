@@ -25,6 +25,7 @@ body {
   padding: 0px;
   padding-left: 0;
   background-image: url(../images/fon2.png);
+  background-size:  contain;
 }
 
 .div_opacity {
