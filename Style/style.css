@@ -27,11 +27,14 @@ body {
   background-image: url(../images/fon2.png);
   background-size: contain;
 }
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
 
 .div_opacity {
   width: 100%;
-  height: 3000px;
-  padding-left: 10px;
+  min-height: 1000px;
   background-color: rgba(204, 199, 176, 0.5);
 }
 
@@ -41,49 +44,53 @@ header {
   width: 100%;
   padding: 0;
   margin: auto;
-  background: #ccc7b0;
-  position: fixed;
-  top: 0px;
-  left: 0;
+  background: rgb(204, 199, 176, 0.9);
+  background-image: url(../images/fon2.png);
+  background-size: contain;
 }
 
-.title {
-  padding-top: 70px
-}
 
 .menu {
   padding: 0;
   margin: 0;
-  width: 1000px;
   display: flex;
+  float: right;
   text-decoration: none;
 }
 
-.menu img {
+header img {
+  padding-left: 25px;
+  display: inline-block;
   width: 75px;
   height: 75px;
+  float: left;
+
 }
 
 .menu li {
+  float: right;
   letter-spacing: 2px;
   text-align: center;
   list-style: none;
-  padding-top: 6px;
-  padding-left: 10px
+padding: 12px;
+
+
 }
+
 
 .menu li a {
   font-family: "Shtempel", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #a24252;
   display: table-cell;
   text-decoration: none;
   text-transform: uppercase;
-  width: 220px;
-  line-height: 60px;
+  width: 150px;
+  line-height: 50px;
   border: 1px solid #6b2148;
   border-radius: 15px;
   box-shadow: 5px 5px 10px #636060;
+  background-color: rgba(204, 199, 176, 0.89);
 }
 
 .menu li a:hover {
@@ -97,6 +104,10 @@ header {
 }
 
 /*styles for h1*/
+.title{
+  padding: 0;
+  margin: 0;
+}
 .title span {
   font-family: "Shtempel", sans-serif;
   color: #a24252;
@@ -113,7 +124,32 @@ header {
   font-size: 50px;
   color: #a24252;
 }
+/*Submenu*/
 
+.submenu li{
+  padding-bottom: 0;
+}
+.sub {
+  padding-left: 0;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: -35px;
+  top: 70px;
+}
+
+.submenu a {
+  background-color: #ccc7b0;
+
+}
+
+.sub:hover .submenu {
+  display: block;
+
+}
 /*styles for Catalog*/
 .catalog {
   display: flex;
@@ -200,6 +236,12 @@ header {
 }
 
 /*Styles for Product_page*/
+
+.text_short_desc{
+height: 280px;
+padding-left: 5px;
+padding-bottom: 15px;
+}
 .body_product_page p:first-letter {
   font-size: 50px;
   font-family: Callygraph, sans-serif;
@@ -209,20 +251,54 @@ header {
 }
 
 .body_product_page {
-  width: 300px;
+  position: relative;
+  width: 400px;
   text-align: center;
   background: rgba(150, 150, 150, 0.6);
 }
 
+
+.but_buy:hover{
+background-color: rgb(190, 209, 95);
+border-color: rgb(226, 152, 49);
+}
+
+.but_buy:active{
+  background-color: red;
+}
+
+.but_buy{
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgb(173, 198, 35);
+  border-color: rgb(183, 198, 35);
+  outline: none;
+  font-family: verdana;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #a24252;
+  font-weight: bolder;
+}
+
 .body_product_page h3 {
-  width: 300px;
+  width: 400px;
   background-color: #ccc;
   text-align: center;
   color: #a24252;
 }
 
+.body_product_page a{
+  padding-top: 47px;
+  display:inline-block;
+  float: left;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
 .body_product_page a img {
   outline: 5px solid #391d4d;
+
 }
 
 .body_product_page a img:hover {
@@ -260,29 +336,13 @@ header {
 /*Styles for footer*/
 footer {
   border-top: 2px solid gray;
+  background-color: rgb(143, 209, 48, 0.5);
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 footer span {
   font-size: 20px;
   color
-}
-
-/*Submenu*/
-.sub {
-  padding-left: 0;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  left: 268px;
-  top: 75px;
-}
-
-.submenu a {
-  background-color: #ccc7b0;
-}
-
-.sub:hover .submenu {
-  display: block;
 }
